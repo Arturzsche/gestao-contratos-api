@@ -6,3 +6,4 @@ sqlalchemy
 psycopg2-binary
 fpdf
 google-genai
+python-multipart
