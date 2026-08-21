@@ -28,7 +28,7 @@ app.add_middleware(
 )
 
 # 1. CONEXÃO COM O BANCO DE DADOS
-DATABASE_URL = "postgresql://postgres:admin@localhost:5432/licitacontrol_db"
+DATABASE_URL = "postgresql://neondb_owner:npg_foy20hbmuILp@ep-proud-sea-ay8wz1z6.c-5.us-east-2.aws.neon.tech/neondb?sslmode=require"
 engine = create_engine(DATABASE_URL)
 
 # 2. CHAVE DO GEMINI
